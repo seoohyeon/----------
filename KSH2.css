@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&family=Jua&family=Nanum+Gothic+Coding&display=swap");
+body {
+  font-family: "Hahmlet", serif;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./img/emphasis.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.content {
+  font-size: 20px;
+  background-color: yellow;
+  border: 10px dashed black;
+  border-radius: 50px;
+  padding: 30px;
+  margin-left: 100px;
+  margin-top: 150px;
+}
+
+div > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div .need-blank {
+  margin: 30px;
+}
